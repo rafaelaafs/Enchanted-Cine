@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200&family=Delicious+Handrawn&family=Inter:wght@300;400;700&family=Lato:wght@100;300&family=Raleway:wght@100;200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(216, 189, 230);
+}
+
+.menu_navegacao {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: black;
+    align-items: center;
+    height: 115px;
+}
+
+.home_img{
+    width: 18px;
+    height: 18px;
+    margin: 2px;
+}
+
+.home{
+    width: 40px;
+    height: 30px;   
+}
+
+.botoes{
+    margin-right: 450px;
+    display: flex;
+    align-items: center;
+}
+
+#searchInput{
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    width: 160px;
+    height: 25px;
+    cursor: text;
+    padding-left: 20px;
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: #FF66C4;
+    color: white;
+    cursor: pointer;
+}
+
+.logo_img {
+    margin-left: 40px;
+    width: 150px;
+    height: 100px;
+}
+
+.submenu{
+    height: 35px;
+    padding-top: 35px;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+    font-size: 23px;
+}
+
+.poster-image {
+    width: 200px !important;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movieCard {
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    width: 280px;
+    height: 500px;
+    margin: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;    
+    background-color: aliceblue;
+}
+
+.movieCard:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.vote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #e38dc2;
+}
+
+.movieCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-top: 30px;
+}
+
+.movieCard h2 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    align-items: center;
+    color: rosybrown;
+    font-family: Raleway;
+}
+
+.date{
+    font-size: 13px;
+    color: rgb(163, 143, 188);
+}
+
+.movieCard p {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.divAlo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.ini{
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: #ff009d;
+    color: white;
+    cursor: pointer;
+}
+
+
